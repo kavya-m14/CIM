@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['car', 'person', 'traffic light']
+
+roboflow:
+  workspace: zod404-wi1pn
+  project: flir-thermal-dataset-fyosq
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/zod404-wi1pn/flir-thermal-dataset-fyosq/1
